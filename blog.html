@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Langar', cursive;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        /* cursor: pointer; */
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .text{
+        font-size: 4rem;
+    }
+    
+    .flex-item{
+        width: auto;
+        height: 200px;
+        text-align: center;
+        background-color: black;
+        margin: 10px 0px 5px 0px;
+        cursor: pointer;
+    }
+    .flex-item:hover{
+        background-color: rgb(214, 129, 129);
+        transition: width 2s linear 1s;
+    }
+    .flex-item img{
+        width: 170px;
+        height: 170px;
+    }
+</style>
+<body>
+    
+    <div class="container">
+        <div class="text">Ek Sarko Duniya Arko</div>
+        <div class="text">Yo Blog Ho la</div>
+        <div class="flex-item"> <div> <strong> Pentesting</strong></div> <img src="/images/hacker.png" alt="Pentesting"> </div>
+        <div class="flex-item"><div><strong>Networking</strong> </div><img src="/images/network.png" alt="Network"> </div>
+        <div class="flex-item"><div><strong>Web Development</strong></div> <img src="/images/developer.png" alt="Developer-logo"> </div>
+        <div class="flex-item"><div><strong>Coding</strong></div> <img src="/images/c++.png" alt=""></div>
+    </div>
+    
+</body>
+
+</html>

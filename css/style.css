@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Langar', cursive;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    padding: 5px 0px 0px 67px;
+    
+}
+/* Navbar area      */
+#navbar{
+    display: flex;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+}
+#navbar::before {
+    content: "";
+    background-color: rgb(156, 154, 154);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 15%;
+    width: 100%;
+    z-index: -1;
+    opacity: .3;
+   
+}
+#navbar ul{
+    display: flex;
+    top: 0px;
+
+}
+#navbar ul li{
+    list-style-type: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding: 19px 30px;
+    margin: 18px 28px;
+}
+#navbar ul li a:hover{
+    background-color: rgb(94, 94, 94);
+    color: white;
+    border-radius: 20px;
+}
+#logo{
+    padding: 20px 20px;
+    margin: 16px 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#intro{
+    font-size: 2.5rem;
+    padding: 3px 14px;
+    margin: 4px 20px;
+}
+#sub-intro{
+    font-size: 1.4rem;
+    margin: 0px 20px;
+    padding: 3px 13px;
+}
+
+#button-area{
+    display: flex;
+    color: white;
+    margin: 2px 29px;
+    padding: 10px 10px;
+}
+.button{
+    background-color: black;
+    border: 2px solid black;
+    padding: 15px 20px;
+    margin: 5px -3px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: white;
+    
+    color: black;
+    
+}
+
+
+/* Project section  */
+.project-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#project{
+    display: flex;
+    
+}
+#project{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 23px;
+    position: relative;
+}
+#project > div{
+    /* background: url('https://source.unsplash.com/random'); */
+    
+    position: relative;
+    /* width: 350px;
+    height: 500px; */
+    margin: 5px 13px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+/* #project > div:hover{
+    border: none;
+    border: 2px solid black;
+    transition: 2px 1s linear;
+} */
+
+.text{
+    color: red;
+    text-align: center;
+    margin: 454px 0px;
+    margin-right: 256px;
+}
+
+.project1 img{
+    width: 350px;
+    height: 500px;
+    margin: 0px 3px;
+    border-radius: 25px;
+    
+}
+.project2 img{
+    width: 350px;
+    height: 300px;
+    margin: 0px 3px;
+    border-radius: 25px;
+}
+
+.project3 img{
+    width: 350px;
+    height: 437px;
+    margin: 0px 3px;
+    border-radius: 25px;
+}
+.project4 img{
+    width: 350px;
+    height: 500px;
+    margin: 0px 3px;
+    border-radius: 25px;
+    
+}
+.project5 img{
+    width: 350px;
+    height: 500px;
+    margin: -203px 3px;
+    border-radius: 25px;
+}
+
+.project6 img{
+    width: 350px;
+    height: 437px;
+    margin: 0px 3px;
+    border-radius: 25px;
+}
+
+
+
+/* skills section  */
+
+#skills{
+display: flex;
+justify-content: center;
+align-items: center;
+
+    
+}
+
+/* skills section  */
+
+.ind-skills{
+    background-color: rgba(156, 154, 154,0.12);  
+    height: 310px;
+    width: 400px;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.ind-skills > img{
+    width: 100px;
+    height: 100px;
+}
+
+#foot{
+    background-color: rgba(58, 58, 58, 0.12);  
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 50px 50px;
+    /* margin: 26px 0px; */
+    line-height: 2rem;
+}
+
+#foot a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#foot-icons img{
+    width: 20px;
+    height: 20px;
+    
+}

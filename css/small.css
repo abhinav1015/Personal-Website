@@ -1,0 +1,104 @@
+#navbar{
+    flex-direction: column;
+    font-size: 0.9rem;
+    /* overflow: revert; */
+    
+}
+#navbar ul li a{
+ 
+    padding: 2px 2px;
+    margin: 3px 3px;
+}
+
+#navbar::before{
+    height: 176px;
+    width: 115%;
+}
+
+#head-buttons{
+    margin:45px;
+}
+
+#intro{
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+#sub-intro{
+    font-size: 0.9rem;
+}
+#button-area{
+    font-size: 0.5rem;
+}
+.button{
+    padding: 5px 15px;
+}
+
+#project{
+
+    justify-content: center;
+    align-items: center;
+}
+
+.project1 img{
+    width: 250px;
+    /* height: 400px; */
+    margin: 0px 3px;
+    /* border-radius: 25px; */
+    
+}
+.project2 img{
+    width: 250px;
+    /* height: 300px;  */
+    margin: 0px 3px;
+    /* border-radius: 25px; */
+}
+
+.project3 img{
+    width: 250px;
+    /* height: 437px;  */
+    margin: 0px 3px;
+    /* border-radius: 25px; */
+}
+.project4 img{
+    width: 250px;
+    /* height: 400px; */
+    margin: 3px 3px;
+    /* border-radius: 25px; */
+    
+}
+.project5 img{
+    width: 250px;
+    /* height: 400px; */
+    margin: -8px 3px;
+    /* border-radius: 25px; */
+}
+
+.project6 img{
+    width: 250px;
+    /* height: 437px;  */
+    margin: 3px 3px;
+    /* border-radius: 25px; */
+}
+
+.project-heading{
+    font-size: 1.5rem;
+}
+
+.ind-skills h1{
+    font-size: 0.8rem;
+}
+
+.ind-skills p{
+    font-size: 0.6rem;
+}
+.ind-skills{
+    height: 332px;
+}
+
+#foot{
+    height: 228px ;
+    width: 120%;
+}
+#skills{
+    flex-direction: column;
+}
